@@ -5,7 +5,7 @@ const toolSchema = mongoose.Schema({
   description: { type: String },
   tags: [{ type: String }],
   website: { type: String },
-  slug: { type: String },
+  id: { type: String}
 });
 
-module.exports = mongoose.model("AiTool", toolSchema);
+module.exports = mongoose.model("aiTool", toolSchema);
